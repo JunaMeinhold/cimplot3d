@@ -30,6 +30,7 @@
       "call_args": "(ConvertToCPP_ImPlot3DPoint(p0),ConvertToCPP_ImPlot3DPoint(p1),*p0_clipped,*p1_clipped)",
       "call_args_old": "(p0,p1,*p0_clipped,*p1_clipped)",
       "cimguiname": "ImPlot3DBox_ClipLineSegment",
+      "comment": "    // Method to clip a line segment against the box",
       "defaults": {},
       "funcname": "ClipLineSegment",
       "location": "implot3d:947",
@@ -57,6 +58,7 @@
       "call_args": "(ConvertToCPP_ImPlot3DPoint(point))",
       "call_args_old": "(point)",
       "cimguiname": "ImPlot3DBox_Contains",
+      "comment": "    // Method to check if a point is inside the box",
       "defaults": {},
       "funcname": "Contains",
       "location": "implot3d:944",
@@ -84,6 +86,7 @@
       "call_args": "(ConvertToCPP_ImPlot3DPoint(point))",
       "call_args_old": "(point)",
       "cimguiname": "ImPlot3DBox_Expand",
+      "comment": "    // Method to expand the box to include a point",
       "defaults": {},
       "funcname": "Expand",
       "location": "implot3d:941",
@@ -102,6 +105,7 @@
       "call_args": "()",
       "call_args_old": "()",
       "cimguiname": "ImPlot3DBox_ImPlot3DBox",
+      "comment": "    // Default constructor",
       "constructor": true,
       "defaults": {},
       "funcname": "ImPlot3DBox",
@@ -127,6 +131,7 @@
       "call_args": "(ConvertToCPP_ImPlot3DPoint(min),ConvertToCPP_ImPlot3DPoint(max))",
       "call_args_old": "(min,max)",
       "cimguiname": "ImPlot3DBox_ImPlot3DBox",
+      "comment": "    // Constructor with two points",
       "constructor": true,
       "defaults": {},
       "funcname": "ImPlot3DBox",
@@ -174,6 +179,7 @@
       "call_args": "(ConvertToCPP_ImPlot3DPoint(rhs))",
       "call_args_old": "(rhs)",
       "cimguiname": "ImPlot3DPoint_Cross",
+      "comment": "    // Cross product",
       "conv": "ImPlot3DPoint",
       "defaults": {},
       "funcname": "Cross",
@@ -203,6 +209,7 @@
       "call_args": "(ConvertToCPP_ImPlot3DPoint(rhs))",
       "call_args_old": "(rhs)",
       "cimguiname": "ImPlot3DPoint_Dot",
+      "comment": "    // Dot product",
       "defaults": {},
       "funcname": "Dot",
       "location": "implot3d:876",
@@ -273,6 +280,7 @@
       "call_args": "()",
       "call_args_old": "()",
       "cimguiname": "ImPlot3DPoint_IsNaN",
+      "comment": "    // Check if the point is NaN",
       "defaults": {},
       "funcname": "IsNaN",
       "location": "implot3d:897",
@@ -296,6 +304,7 @@
       "call_args": "()",
       "call_args_old": "()",
       "cimguiname": "ImPlot3DPoint_Length",
+      "comment": "    // Get vector length",
       "defaults": {},
       "funcname": "Length",
       "location": "implot3d:882",
@@ -319,6 +328,7 @@
       "call_args": "()",
       "call_args_old": "()",
       "cimguiname": "ImPlot3DPoint_LengthSquared",
+      "comment": "    // Get vector squared length",
       "defaults": {},
       "funcname": "LengthSquared",
       "location": "implot3d:885",
@@ -342,6 +352,7 @@
       "call_args": "()",
       "call_args_old": "()",
       "cimguiname": "ImPlot3DPoint_Normalize",
+      "comment": "    // Normalize to unit length",
       "defaults": {},
       "funcname": "Normalize",
       "location": "implot3d:888",
@@ -365,6 +376,7 @@
       "call_args": "()",
       "call_args_old": "()",
       "cimguiname": "ImPlot3DPoint_Normalized",
+      "comment": "    // Return vector normalized to unit length",
       "conv": "ImPlot3DPoint",
       "defaults": {},
       "funcname": "Normalized",
@@ -410,6 +422,7 @@
       "call_args": "()",
       "call_args_old": "()",
       "cimguiname": "ImPlot3DQuat_Conjugate",
+      "comment": "    // Conjugate of the quaternion",
       "conv": "ImPlot3DQuat",
       "defaults": {},
       "funcname": "Conjugate",
@@ -439,6 +452,7 @@
       "call_args": "(ConvertToCPP_ImPlot3DQuat(rhs))",
       "call_args_old": "(rhs)",
       "cimguiname": "ImPlot3DQuat_Dot",
+      "comment": "    // Get quaternion dot product",
       "defaults": {},
       "funcname": "Dot",
       "location": "implot3d:1017",
@@ -466,6 +480,7 @@
       "call_args": "(elevation,azimuth)",
       "call_args_old": "(elevation,azimuth)",
       "cimguiname": "ImPlot3DQuat_FromElAz",
+      "comment": "    // Create quaternion from elevation and azimuth angles (in radians)",
       "conv": "ImPlot3DQuat",
       "defaults": {},
       "funcname": "FromElAz",
@@ -496,6 +511,7 @@
       "call_args": "(ConvertToCPP_ImPlot3DPoint(v0),ConvertToCPP_ImPlot3DPoint(v1))",
       "call_args_old": "(v0,v1)",
       "cimguiname": "ImPlot3DQuat_FromTwoVectors",
+      "comment": "    // Create quaternion that rotates from v0 to v1",
       "conv": "ImPlot3DQuat",
       "defaults": {},
       "funcname": "FromTwoVectors",
@@ -517,6 +533,7 @@
       "call_args": "()",
       "call_args_old": "()",
       "cimguiname": "ImPlot3DQuat_ImPlot3DQuat",
+      "comment": "    // Constructors",
       "constructor": true,
       "defaults": {},
       "funcname": "ImPlot3DQuat",
@@ -575,6 +592,7 @@
       "call_args": "(_angle,ConvertToCPP_ImPlot3DPoint(_axis))",
       "call_args_old": "(_angle,_axis)",
       "cimguiname": "ImPlot3DQuat_ImPlot3DQuat",
+      "comment": "    // Construct quaternion from angle-axis representation (angle in radians)",
       "constructor": true,
       "defaults": {},
       "funcname": "ImPlot3DQuat",
@@ -598,6 +616,7 @@
       "call_args": "()",
       "call_args_old": "()",
       "cimguiname": "ImPlot3DQuat_Inverse",
+      "comment": "    // Inverse of the quaternion",
       "conv": "ImPlot3DQuat",
       "defaults": {},
       "funcname": "Inverse",
@@ -623,6 +642,7 @@
       "call_args": "()",
       "call_args_old": "()",
       "cimguiname": "ImPlot3DQuat_Length",
+      "comment": "    // Get quaternion length",
       "defaults": {},
       "funcname": "Length",
       "location": "implot3d:989",
@@ -646,6 +666,7 @@
       "call_args": "()",
       "call_args_old": "()",
       "cimguiname": "ImPlot3DQuat_Normalize",
+      "comment": "    // Normalize the quaternion in place",
       "defaults": {},
       "funcname": "Normalize",
       "location": "implot3d:1004",
@@ -671,6 +692,7 @@
       "call_args": "()",
       "call_args_old": "()",
       "cimguiname": "ImPlot3DQuat_Normalized",
+      "comment": "    // Get normalized quaternion",
       "conv": "ImPlot3DQuat",
       "defaults": {},
       "funcname": "Normalized",
@@ -704,6 +726,7 @@
       "call_args": "(ConvertToCPP_ImPlot3DQuat(q1),ConvertToCPP_ImPlot3DQuat(q2),t)",
       "call_args_old": "(q1,q2,t)",
       "cimguiname": "ImPlot3DQuat_Slerp",
+      "comment": "    // Spherical linear interpolation between two quaternions (t in [0,1])",
       "conv": "ImPlot3DQuat",
       "defaults": {},
       "funcname": "Slerp",
@@ -754,6 +777,7 @@
       "call_args": "(value)",
       "call_args_old": "(value)",
       "cimguiname": "ImPlot3DRange_Contains",
+      "comment": "// Check if value is within range",
       "defaults": {},
       "funcname": "Contains",
       "location": "implot3d:963",
@@ -781,6 +805,7 @@
       "call_args": "(value)",
       "call_args_old": "(value)",
       "cimguiname": "ImPlot3DRange_Expand",
+      "comment": "// Expand range to include value",
       "defaults": {},
       "funcname": "Expand",
       "location": "implot3d:962",
@@ -847,6 +872,7 @@
       "call_args": "()",
       "call_args_old": "()",
       "cimguiname": "ImPlot3DRange_Size",
+      "comment": "// Get range size",
       "defaults": {},
       "funcname": "Size",
       "location": "implot3d:964",
@@ -1206,6 +1232,7 @@
       "call_args": "(prop,v)",
       "call_args_old": "(prop,v)",
       "cimguiname": "ImPlot3DSpec_SetProp",
+      "comment": "    // Set a property from an ImU32* array (per-index colors).",
       "defaults": {},
       "funcname": "SetProp",
       "location": "implot3d:440",
@@ -1235,6 +1262,7 @@
       "call_args": "(prop,v)",
       "call_args_old": "(prop,v)",
       "cimguiname": "ImPlot3DSpec_SetProp",
+      "comment": "    // Set a property from a float* array (per-index sizes).",
       "defaults": {},
       "funcname": "SetProp",
       "location": "implot3d:452",
@@ -1264,6 +1292,7 @@
       "call_args": "(prop,ConvertToCPP_ImVec4(v))",
       "call_args_old": "(prop,v)",
       "cimguiname": "ImPlot3DSpec_SetProp",
+      "comment": "    // Set a property from an ImVec4 value.",
       "defaults": {},
       "funcname": "SetProp",
       "location": "implot3d:461",
@@ -1331,6 +1360,7 @@
       "call_args": "()",
       "call_args_old": "()",
       "cimguiname": "ImPlot3DStyle_ImPlot3DStyle",
+      "comment": "\n    // Constructor",
       "constructor": true,
       "defaults": {},
       "funcname": "ImPlot3DStyle",
@@ -1506,6 +1536,7 @@
       "call_args": "(title_id,ConvertToCPP_ImVec2(size),flags)",
       "call_args_old": "(title_id,size,flags)",
       "cimguiname": "ImPlot3D_BeginPlot",
+      "comment": "// Starts a 3D plotting context. If this function returns true, EndPlot() MUST\n// be called! You are encouraged to use the following convention:\n//\n// if (ImPlot3D::BeginPlot(...)) \n//     ImPlot3D::PlotLine(...);\n//     ...\n//     ImPlot3D::EndPlot();\n// \n//\n// Important notes:\n// - #title_id must be unique to the current ImGui ID scope. If you need to avoid ID\n//   collisions or don't want to display a title in the plot, use double hashes\n//   (e.g. \"MyPlot##HiddenIdText\" or \"##NoTitle\").\n// - #size is the **frame** size of the plot widget, not the plot area.",
       "defaults": {
         "flags": "0",
         "size": "ImVec2(-1,0)"
@@ -1527,6 +1558,7 @@
       "call_args": "()",
       "call_args_old": "()",
       "cimguiname": "ImPlot3D_CreateContext",
+      "comment": "// Creates a new ImPlot3D context. Call this after ImGui::CreateContext",
       "defaults": {},
       "funcname": "CreateContext",
       "location": "implot3d:492",
@@ -1550,6 +1582,7 @@
       "call_args": "(ctx)",
       "call_args_old": "(ctx)",
       "cimguiname": "ImPlot3D_DestroyContext",
+      "comment": "\n// Destroys an ImPlot3D context. Call this before ImGui::DestroyContext. nullptr = destroy current context",
       "defaults": {
         "ctx": "nullptr"
       },
@@ -1570,6 +1603,7 @@
       "call_args": "()",
       "call_args_old": "()",
       "cimguiname": "ImPlot3D_EndPlot",
+      "comment": "// Only call if BeginPlot() returns true!",
       "defaults": {},
       "funcname": "EndPlot",
       "location": "implot3d:519",
@@ -1597,6 +1631,7 @@
       "call_args": "(idx,cmap)",
       "call_args_old": "(idx,cmap)",
       "cimguiname": "ImPlot3D_GetColormapColor",
+      "comment": "\n// Returns a color from a colormap given an index >= 0 (modulo will be performed)",
       "conv": "ImVec4",
       "defaults": {
         "cmap": "-1"
@@ -1619,6 +1654,7 @@
       "call_args": "()",
       "call_args_old": "()",
       "cimguiname": "ImPlot3D_GetColormapCount",
+      "comment": "// Returns the number of available colormaps (i.e. the built-in + user-added count)",
       "defaults": {},
       "funcname": "GetColormapCount",
       "location": "implot3d:781",
@@ -1642,6 +1678,7 @@
       "call_args": "(name)",
       "call_args_old": "(name)",
       "cimguiname": "ImPlot3D_GetColormapIndex",
+      "comment": "\n// Returns an index number for a colormap given a valid string name. Returns -1 if name is invalid",
       "defaults": {},
       "funcname": "GetColormapIndex",
       "location": "implot3d:785",
@@ -1665,6 +1702,7 @@
       "call_args": "(cmap)",
       "call_args_old": "(cmap)",
       "cimguiname": "ImPlot3D_GetColormapName",
+      "comment": "\n// Returns a null terminated string name for a colormap given an index. Returns nullptr if index is invalid",
       "defaults": {},
       "funcname": "GetColormapName",
       "location": "implot3d:783",
@@ -1688,6 +1726,7 @@
       "call_args": "(cmap)",
       "call_args_old": "(cmap)",
       "cimguiname": "ImPlot3D_GetColormapSize",
+      "comment": "// Returns the size of a colormap",
       "defaults": {
         "cmap": "-1"
       },
@@ -1708,6 +1747,7 @@
       "call_args": "()",
       "call_args_old": "()",
       "cimguiname": "ImPlot3D_GetCurrentContext",
+      "comment": "\n// Returns the current ImPlot3D context. nullptr if no context has been set",
       "defaults": {},
       "funcname": "GetCurrentContext",
       "location": "implot3d:496",
@@ -1726,6 +1766,7 @@
       "call_args": "()",
       "call_args_old": "()",
       "cimguiname": "ImPlot3D_GetPlotDrawList",
+      "comment": "// Returns the ImDrawList used for rendering plot items. Use this to add custom rendering inside plots",
       "defaults": {},
       "funcname": "GetPlotDrawList",
       "location": "implot3d:721",
@@ -1744,6 +1785,7 @@
       "call_args": "()",
       "call_args_old": "()",
       "cimguiname": "ImPlot3D_GetPlotRectPos",
+      "comment": "// Get the current plot rect position (top-left) in absolute screen coordinates",
       "conv": "ImVec2",
       "defaults": {},
       "funcname": "GetPlotRectPos",
@@ -1764,6 +1806,7 @@
       "call_args": "()",
       "call_args_old": "()",
       "cimguiname": "ImPlot3D_GetPlotRectSize",
+      "comment": "\n// Get the current plot rect size in pixels",
       "conv": "ImVec2",
       "defaults": {},
       "funcname": "GetPlotRectSize",
@@ -1784,6 +1827,7 @@
       "call_args": "()",
       "call_args_old": "()",
       "cimguiname": "ImPlot3D_GetStyle",
+      "comment": "// Get current style",
       "defaults": {},
       "funcname": "GetStyle",
       "location": "implot3d:728",
@@ -1831,6 +1875,7 @@
       "call_args": "(idx)",
       "call_args_old": "(idx)",
       "cimguiname": "ImPlot3D_GetStyleColorVec4",
+      "comment": "// Get color",
       "conv": "ImVec4",
       "defaults": {},
       "funcname": "GetStyleColorVec4",
@@ -1851,6 +1896,7 @@
       "call_args": "()",
       "call_args_old": "()",
       "cimguiname": "ImPlot3D_NextColormapColor",
+      "comment": "// Returns the next color from the current colormap and advances the colormap for the current plot\n// Can also be used with no return value to skip colors if desired. You need to call it between Begin/EndPlot!",
       "conv": "ImVec4",
       "defaults": {},
       "funcname": "NextColormapColor",
@@ -1871,6 +1917,7 @@
       "call_args": "()",
       "call_args_old": "()",
       "cimguiname": "ImPlot3D_NextMarker",
+      "comment": "// Returns the next marker and advances the marker for the current plot. You need to call this between Begin/EndPlot!",
       "defaults": {},
       "funcname": "NextMarker",
       "location": "implot3d:757",
@@ -1902,6 +1949,7 @@
       "call_args": "(ConvertToCPP_ImVec2(pix),plane,mask)",
       "call_args_old": "(pix,plane,mask)",
       "cimguiname": "ImPlot3D_PixelsToPlotPlane",
+      "comment": "// Convert a pixel coordinate to a point on one of the plot box's axis-aligned planes (XY, XZ, or YZ).\n// By default, the result is masked to the axis ranges. Set #mask=false to project to the infinite plane.\n// Returns ImPlot3DPoint(NAN, NAN, NAN) if the ray does not intersect the plane",
       "conv": "ImPlot3DPoint",
       "defaults": {
         "mask": "true"
@@ -1966,6 +2014,7 @@
       "call_args": "(ConvertToCPP_ImVec2(pix))",
       "call_args_old": "(pix)",
       "cimguiname": "ImPlot3D_PixelsToPlotRay",
+      "comment": "// Convert a pixel coordinate to a ray in the current plot's coordinate system. Useful for 3D picking and intersection tests",
       "defaults": {},
       "funcname": "PixelsToPlotRay",
       "location": "implot3d:702",
@@ -2018,6 +2067,7 @@
       "call_args": "(label_id,ConvertToCPP_ImPlot3DSpec(spec))",
       "call_args_old": "(label_id,spec)",
       "cimguiname": "ImPlot3D_PlotDummy",
+      "comment": "// Plots a dummy item (can be used to modify legend entry appearance when called after plotting an item, or add a dummy legend entry)",
       "defaults": {
         "spec": "ImPlot3DSpec()"
       },
@@ -2075,6 +2125,7 @@
       "call_args": "(label_id,ConvertToCPP_ImTextureRef(tex_ref),ConvertToCPP_ImPlot3DPoint(center),ConvertToCPP_ImPlot3DPoint(axis_u),ConvertToCPP_ImPlot3DPoint(axis_v),ConvertToCPP_ImVec2(uv0),ConvertToCPP_ImVec2(uv1),ConvertToCPP_ImVec4(tint_col),ConvertToCPP_ImPlot3DSpec(spec))",
       "call_args_old": "(label_id,tex_ref,center,axis_u,axis_v,uv0,uv1,tint_col,spec)",
       "cimguiname": "ImPlot3D_PlotImage",
+      "comment": "// Plots a rectangular image in 3D defined by its center and two direction vectors (axes).\n// #center is the center of the rectangle in plot coordinates.\n// #axis_u and #axis_v define the local axes and half-extents of the rectangle in 3D space.\n// The rectangle is formed by moving from the center along ±axis_u and ±axis_v.\n// #uv0 and #uv1 define the texture mapping.\n// #tint_col can be used to tint the image.",
       "defaults": {
         "spec": "ImPlot3DSpec()",
         "tint_col": "ImVec4(1,1,1,1)",
@@ -2145,6 +2196,7 @@
       "call_args": "(label_id,ConvertToCPP_ImTextureRef(tex_ref),ConvertToCPP_ImPlot3DPoint(p0),ConvertToCPP_ImPlot3DPoint(p1),ConvertToCPP_ImPlot3DPoint(p2),ConvertToCPP_ImPlot3DPoint(p3),ConvertToCPP_ImVec2(uv0),ConvertToCPP_ImVec2(uv1),ConvertToCPP_ImVec2(uv2),ConvertToCPP_ImVec2(uv3),ConvertToCPP_ImVec4(tint_col),ConvertToCPP_ImPlot3DSpec(spec))",
       "call_args_old": "(label_id,tex_ref,p0,p1,p2,p3,uv0,uv1,uv2,uv3,tint_col,spec)",
       "cimguiname": "ImPlot3D_PlotImage",
+      "comment": "// Plots an image using four arbitrary 3D points that define a quad in space.\n// Each corner (p0 to p3) corresponds to a corner in the image, and #uv0 to #uv3 are the texture coordinates for each.\n// This overload allows full control over orientation, shape, and distortion.\n// Note: The quad is internally split into two triangles, so non-rectangular quads may produce rendering artifacts\n// since distortion is interpolated per triangle rather than over the full quad.",
       "defaults": {
         "spec": "ImPlot3DSpec()",
         "tint_col": "ImVec4(1,1,1,1)",
@@ -4575,6 +4627,7 @@
       "call_args": "(text,x,y,z,angle,ConvertToCPP_ImVec2(pix_offset))",
       "call_args_old": "(text,x,y,z,angle,pix_offset)",
       "cimguiname": "ImPlot3D_PlotText",
+      "comment": "// Plots a centered text label at point x,y,z with optional rotation angle (in radians) and pixel offset",
       "defaults": {
         "angle": "0.0",
         "pix_offset": "ImVec2(0,0)"
@@ -4601,6 +4654,7 @@
       "call_args": "(ConvertToCPP_ImPlot3DPoint(point))",
       "call_args_old": "(point)",
       "cimguiname": "ImPlot3D_PlotToPixels",
+      "comment": "// Convert a position in the current plot's coordinate system to pixels",
       "conv": "ImVec2",
       "defaults": {},
       "funcname": "PlotToPixels",
@@ -5089,6 +5143,7 @@
       "call_args": "(count)",
       "call_args_old": "(count)",
       "cimguiname": "ImPlot3D_PopColormap",
+      "comment": "\n// Undo temporary colormap modification(s). Undo multiple pushes at once by increasing count",
       "defaults": {
         "count": "1"
       },
@@ -5114,6 +5169,7 @@
       "call_args": "(count)",
       "call_args_old": "(count)",
       "cimguiname": "ImPlot3D_PopStyleColor",
+      "comment": "\n// Undo temporary style color modification(s). Undo multiple pushes at once by increasing count",
       "defaults": {
         "count": "1"
       },
@@ -5139,6 +5195,7 @@
       "call_args": "(count)",
       "call_args_old": "(count)",
       "cimguiname": "ImPlot3D_PopStyleVar",
+      "comment": "\n// Undo temporary style variable modification(s). Undo multiple pushes at once by increasing count",
       "defaults": {
         "count": "1"
       },
@@ -5164,6 +5221,7 @@
       "call_args": "(cmap)",
       "call_args_old": "(cmap)",
       "cimguiname": "ImPlot3D_PushColormap",
+      "comment": "// Temporarily switch to one of the built-in (i.e. ImPlot3DColormap_XXX) or user-added colormaps (i.e. a return value of AddColormap). Don't forget to\n// call PopColormap!",
       "defaults": {},
       "funcname": "PushColormap",
       "location": "implot3d:789",
@@ -5185,6 +5243,7 @@
       "call_args": "(name)",
       "call_args_old": "(name)",
       "cimguiname": "ImPlot3D_PushColormap",
+      "comment": "\n// Push a colormap by string name. Use built-in names such as \"Default\", \"Deep\", \"Jet\", etc. or a string you provided to AddColormap. Don't forget to\n// call PopColormap!",
       "defaults": {},
       "funcname": "PushColormap",
       "location": "implot3d:792",
@@ -5212,6 +5271,7 @@
       "call_args": "(idx,col)",
       "call_args_old": "(idx,col)",
       "cimguiname": "ImPlot3D_PushStyleColor",
+      "comment": "// Temporarily modify a style color. Don't forget to call PopStyleColor!",
       "defaults": {},
       "funcname": "PushStyleColor",
       "location": "implot3d:738",
@@ -5264,6 +5324,7 @@
       "call_args": "(idx,val)",
       "call_args_old": "(idx,val)",
       "cimguiname": "ImPlot3D_PushStyleVar",
+      "comment": "// Temporarily modify a style variable of float type. Don't forget to call PopStyleVar!",
       "defaults": {},
       "funcname": "PushStyleVar",
       "location": "implot3d:744",
@@ -5289,6 +5350,7 @@
       "call_args": "(idx,val)",
       "call_args_old": "(idx,val)",
       "cimguiname": "ImPlot3D_PushStyleVar",
+      "comment": "\n// Temporarily modify a style variable of int type. Don't forget to call PopStyleVar!",
       "defaults": {},
       "funcname": "PushStyleVar",
       "location": "implot3d:746",
@@ -5314,6 +5376,7 @@
       "call_args": "(idx,ConvertToCPP_ImVec2(val))",
       "call_args_old": "(idx,val)",
       "cimguiname": "ImPlot3D_PushStyleVar",
+      "comment": "\n// Temporarily modify a style variable of ImVec2 type. Don't forget to call PopStyleVar!",
       "defaults": {},
       "funcname": "PushStyleVar",
       "location": "implot3d:748",
@@ -5341,6 +5404,7 @@
       "call_args": "(t,cmap)",
       "call_args_old": "(t,cmap)",
       "cimguiname": "ImPlot3D_SampleColormap",
+      "comment": "\n// Sample a color from the current colormap given t between 0 and 1",
       "conv": "ImVec4",
       "defaults": {
         "cmap": "-1"
@@ -5368,6 +5432,7 @@
       "call_args": "(ctx)",
       "call_args_old": "(ctx)",
       "cimguiname": "ImPlot3D_SetCurrentContext",
+      "comment": "\n// Sets the current ImPlot3D context",
       "defaults": {},
       "funcname": "SetCurrentContext",
       "location": "implot3d:498",
@@ -5434,6 +5499,7 @@
       "call_args": "(x_label,y_label,z_label,x_flags,y_flags,z_flags)",
       "call_args_old": "(x_label,y_label,z_label,x_flags,y_flags,z_flags)",
       "cimguiname": "ImPlot3D_SetupAxes",
+      "comment": "// Sets the label and/or flags for primary X/Y/Z axes (shorthand for three calls to SetupAxis)",
       "defaults": {
         "x_flags": "0",
         "y_flags": "0",
@@ -5485,6 +5551,7 @@
       "call_args": "(x_min,x_max,y_min,y_max,z_min,z_max,cond)",
       "call_args_old": "(x_min,x_max,y_min,y_max,z_min,z_max,cond)",
       "cimguiname": "ImPlot3D_SetupAxesLimits",
+      "comment": "// Sets the X/Y/Z axes range limits. If ImPlot3DCond_Always is used, the axes limits will be locked (shorthand for three calls to SetupAxisLimits)",
       "defaults": {
         "cond": "ImPlot3DCond_Once"
       },
@@ -5518,6 +5585,7 @@
       "call_args": "(axis,label,flags)",
       "call_args_old": "(axis,label,flags)",
       "cimguiname": "ImPlot3D_SetupAxis",
+      "comment": "// Enables an axis or sets the label and/or flags for an existing axis. Leave #label = nullptr for no label",
       "defaults": {
         "flags": "0",
         "label": "nullptr"
@@ -5552,6 +5620,7 @@
       "call_args": "(axis,formatter,data)",
       "call_args_old": "(axis,formatter,data)",
       "cimguiname": "ImPlot3D_SetupAxisFormat",
+      "comment": "// Sets the format of numeric axis labels via formatter callback. Given value, write a label into buff. Optionally pass user data",
       "defaults": {
         "data": "nullptr"
       },
@@ -5589,6 +5658,7 @@
       "call_args": "(axis,v_min,v_max,cond)",
       "call_args_old": "(axis,v_min,v_max,cond)",
       "cimguiname": "ImPlot3D_SetupAxisLimits",
+      "comment": "// Sets an axis range limits. If ImPlot3DCond_Always is used, the axis limits will be locked.\n// Note: To invert an axis, use ImPlot3DAxisFlags_Invert with SetupAxis instead of swapping min/max",
       "defaults": {
         "cond": "ImPlot3DCond_Once"
       },
@@ -5622,6 +5692,7 @@
       "call_args": "(axis,v_min,v_max)",
       "call_args_old": "(axis,v_min,v_max)",
       "cimguiname": "ImPlot3D_SetupAxisLimitsConstraints",
+      "comment": "// Sets an axis' limits constraints. The axis will be constrained to never go below #v_min or above #v_max",
       "defaults": {},
       "funcname": "SetupAxisLimitsConstraints",
       "location": "implot3d:574",
@@ -5649,6 +5720,7 @@
       "call_args": "(axis,scale)",
       "call_args_old": "(axis,scale)",
       "cimguiname": "ImPlot3D_SetupAxisScale",
+      "comment": "// Sets an axis' scale using built-in options",
       "defaults": {},
       "funcname": "SetupAxisScale",
       "location": "implot3d:568",
@@ -5682,6 +5754,7 @@
       "call_args": "(axis,forward,inverse,data)",
       "call_args_old": "(axis,forward,inverse,data)",
       "cimguiname": "ImPlot3D_SetupAxisScale",
+      "comment": "// Sets an axis' scale using user supplied forward and inverse transforms",
       "defaults": {
         "data": "nullptr"
       },
@@ -5723,6 +5796,7 @@
       "call_args": "(axis,values,n_ticks,labels,keep_default)",
       "call_args_old": "(axis,values,n_ticks,labels,keep_default)",
       "cimguiname": "ImPlot3D_SetupAxisTicks",
+      "comment": "// Sets an axis' ticks and optionally the labels. To keep the default ticks, set #keep_default=true",
       "defaults": {
         "keep_default": "false",
         "labels": "nullptr"
@@ -5767,6 +5841,7 @@
       "call_args": "(axis,v_min,v_max,n_ticks,labels,keep_default)",
       "call_args_old": "(axis,v_min,v_max,n_ticks,labels,keep_default)",
       "cimguiname": "ImPlot3D_SetupAxisTicks",
+      "comment": "// Sets an axis' ticks and optionally the labels for the next plot. To keep the default ticks, set #keep_default=true",
       "defaults": {
         "keep_default": "false",
         "labels": "nullptr"
@@ -5801,6 +5876,7 @@
       "call_args": "(axis,zoom_min,zoom_max)",
       "call_args_old": "(axis,zoom_min,zoom_max)",
       "cimguiname": "ImPlot3D_SetupAxisZoomConstraints",
+      "comment": "// Sets an axis' zoom constraints. The zoom (axis range size: range.max - range.min) will be constrained between #zoom_min and #zoom_max",
       "defaults": {},
       "funcname": "SetupAxisZoomConstraints",
       "location": "implot3d:577",
@@ -5828,6 +5904,7 @@
       "call_args": "(elevation,azimuth)",
       "call_args_old": "(elevation,azimuth)",
       "cimguiname": "ImPlot3D_SetupBoxInitialRotation",
+      "comment": "// Sets the plot box initial rotation given the elevation and azimuth angles in degrees. The initial rotation is the rotation the plot goes back to\n// when a left mouse button double click happens",
       "defaults": {},
       "funcname": "SetupBoxInitialRotation",
       "location": "implot3d:595",
@@ -5849,6 +5926,7 @@
       "call_args": "(ConvertToCPP_ImPlot3DQuat(rotation))",
       "call_args_old": "(rotation)",
       "cimguiname": "ImPlot3D_SetupBoxInitialRotation",
+      "comment": "// Sets the plot box initial rotation given a quaternion. The initial rotation is the rotation the plot goes back to when a left mouse button double\n// click happens",
       "defaults": {},
       "funcname": "SetupBoxInitialRotation",
       "location": "implot3d:599",
@@ -5884,6 +5962,7 @@
       "call_args": "(elevation,azimuth,animate,cond)",
       "call_args_old": "(elevation,azimuth,animate,cond)",
       "cimguiname": "ImPlot3D_SetupBoxRotation",
+      "comment": "// Sets the plot box rotation given the elevation and azimuth angles in degrees. If ImPlot3DCond_Always is used, the rotation will be locked",
       "defaults": {
         "animate": "false",
         "cond": "ImPlot3DCond_Once"
@@ -5916,6 +5995,7 @@
       "call_args": "(ConvertToCPP_ImPlot3DQuat(rotation),animate,cond)",
       "call_args_old": "(rotation,animate,cond)",
       "cimguiname": "ImPlot3D_SetupBoxRotation",
+      "comment": "// Sets the plot box rotation given a quaternion. If ImPlot3DCond_Always is used, the rotation will be locked",
       "defaults": {
         "animate": "false",
         "cond": "ImPlot3DCond_Once"
@@ -5950,6 +6030,7 @@
       "call_args": "(x,y,z)",
       "call_args_old": "(x,y,z)",
       "cimguiname": "ImPlot3D_SetupBoxScale",
+      "comment": "// Sets the plot box X/Y/Z scale. A scale of 1.0 is the default. Values greater than 1.0 enlarge the plot, while values between 0.0 and 1.0 shrink it",
       "defaults": {},
       "funcname": "SetupBoxScale",
       "location": "implot3d:602",
@@ -5977,6 +6058,7 @@
       "call_args": "(location,flags)",
       "call_args_old": "(location,flags)",
       "cimguiname": "ImPlot3D_SetupLegend",
+      "comment": "// Sets up the plot legend location and flags",
       "defaults": {
         "flags": "0"
       },
@@ -6002,6 +6084,7 @@
       "call_args": "(p_open)",
       "call_args_old": "(p_open)",
       "cimguiname": "ImPlot3D_ShowAboutWindow",
+      "comment": "// Shows ImPlot3D about window.",
       "defaults": {
         "p_open": "nullptr"
       },
@@ -6022,6 +6105,7 @@
       "call_args": "()",
       "call_args_old": "()",
       "cimguiname": "ImPlot3D_ShowAllDemos",
+      "comment": "\n// Shows all ImPlot3D demos, without enclosing window",
       "defaults": {},
       "funcname": "ShowAllDemos",
       "location": "implot3d:815",
@@ -6045,6 +6129,7 @@
       "call_args": "(label)",
       "call_args_old": "(label)",
       "cimguiname": "ImPlot3D_ShowColormapSelector",
+      "comment": "\n// Shows ImPlot3D colormap selector and returns true if selection is changed (not a window)",
       "defaults": {},
       "funcname": "ShowColormapSelector",
       "location": "implot3d:822",
@@ -6068,6 +6153,7 @@
       "call_args": "(p_open)",
       "call_args_old": "(p_open)",
       "cimguiname": "ImPlot3D_ShowDemoWindow",
+      "comment": "// Shows the ImPlot3D demo window",
       "defaults": {
         "p_open": "nullptr"
       },
@@ -6093,6 +6179,7 @@
       "call_args": "(p_popen)",
       "call_args_old": "(p_popen)",
       "cimguiname": "ImPlot3D_ShowMetricsWindow",
+      "comment": "// Shows ImPlot3D metrics/debug information window.",
       "defaults": {
         "p_popen": "nullptr"
       },
@@ -6118,6 +6205,7 @@
       "call_args": "(ref)",
       "call_args_old": "(ref)",
       "cimguiname": "ImPlot3D_ShowStyleEditor",
+      "comment": "// Shows ImPlot3D style editor block (not a window)",
       "defaults": {
         "ref": "nullptr"
       },
@@ -6143,6 +6231,7 @@
       "call_args": "(label)",
       "call_args_old": "(label)",
       "cimguiname": "ImPlot3D_ShowStyleSelector",
+      "comment": "\n// Shows ImPlot3D style selector and returns true if selection is changed (not a window)",
       "defaults": {},
       "funcname": "ShowStyleSelector",
       "location": "implot3d:820",
@@ -6166,6 +6255,7 @@
       "call_args": "(dst)",
       "call_args_old": "(dst)",
       "cimguiname": "ImPlot3D_StyleColorsAuto",
+      "comment": "// Set color styles// Set colors with ImGui style",
       "defaults": {
         "dst": "nullptr"
       },
@@ -6191,6 +6281,7 @@
       "call_args": "(dst)",
       "call_args_old": "(dst)",
       "cimguiname": "ImPlot3D_StyleColorsClassic",
+      "comment": "// Set colors with classic style",
       "defaults": {
         "dst": "nullptr"
       },
@@ -6216,6 +6307,7 @@
       "call_args": "(dst)",
       "call_args_old": "(dst)",
       "cimguiname": "ImPlot3D_StyleColorsDark",
+      "comment": "// Set colors with dark style",
       "defaults": {
         "dst": "nullptr"
       },
@@ -6241,6 +6333,7 @@
       "call_args": "(dst)",
       "call_args_old": "(dst)",
       "cimguiname": "ImPlot3D_StyleColorsLight",
+      "comment": "// Set colors with light style",
       "defaults": {
         "dst": "nullptr"
       },
