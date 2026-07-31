@@ -109,83 +109,78 @@
     "ImPlot3DCol_": [
       {
         "calc_value": 0,
-        "name": "ImPlot3DCol_Line",
+        "name": "ImPlot3DCol_TitleText",
         "value": "0"
       },
       {
         "calc_value": 1,
-        "name": "ImPlot3DCol_Fill",
+        "name": "ImPlot3DCol_InlayText",
         "value": "1"
       },
       {
         "calc_value": 2,
-        "name": "ImPlot3DCol_MarkerOutline",
+        "name": "ImPlot3DCol_FrameBg",
         "value": "2"
       },
       {
         "calc_value": 3,
-        "name": "ImPlot3DCol_MarkerFill",
+        "name": "ImPlot3DCol_PlotBg",
         "value": "3"
       },
       {
         "calc_value": 4,
-        "name": "ImPlot3DCol_TitleText",
+        "name": "ImPlot3DCol_PlotBorder",
         "value": "4"
       },
       {
         "calc_value": 5,
-        "name": "ImPlot3DCol_InlayText",
+        "name": "ImPlot3DCol_LegendBg",
         "value": "5"
       },
       {
         "calc_value": 6,
-        "name": "ImPlot3DCol_FrameBg",
+        "name": "ImPlot3DCol_LegendBorder",
         "value": "6"
       },
       {
         "calc_value": 7,
-        "name": "ImPlot3DCol_PlotBg",
+        "name": "ImPlot3DCol_LegendText",
         "value": "7"
       },
       {
         "calc_value": 8,
-        "name": "ImPlot3DCol_PlotBorder",
+        "name": "ImPlot3DCol_AxisText",
         "value": "8"
       },
       {
         "calc_value": 9,
-        "name": "ImPlot3DCol_LegendBg",
+        "name": "ImPlot3DCol_AxisGrid",
         "value": "9"
       },
       {
         "calc_value": 10,
-        "name": "ImPlot3DCol_LegendBorder",
+        "name": "ImPlot3DCol_AxisTick",
         "value": "10"
       },
       {
         "calc_value": 11,
-        "name": "ImPlot3DCol_LegendText",
+        "name": "ImPlot3DCol_AxisBg",
         "value": "11"
       },
       {
         "calc_value": 12,
-        "name": "ImPlot3DCol_AxisText",
+        "name": "ImPlot3DCol_AxisBgHovered",
         "value": "12"
       },
       {
         "calc_value": 13,
-        "name": "ImPlot3DCol_AxisGrid",
+        "name": "ImPlot3DCol_AxisBgActive",
         "value": "13"
       },
       {
         "calc_value": 14,
-        "name": "ImPlot3DCol_AxisTick",
-        "value": "14"
-      },
-      {
-        "calc_value": 15,
         "name": "ImPlot3DCol_COUNT",
-        "value": "15"
+        "value": "14"
       }
     ],
     "ImPlot3DColormap_": [
@@ -493,8 +488,13 @@
     ],
     "ImPlot3DMarker_": [
       {
-        "calc_value": -1,
+        "calc_value": -2,
         "name": "ImPlot3DMarker_None",
+        "value": "-2"
+      },
+      {
+        "calc_value": -1,
+        "name": "ImPlot3DMarker_Auto",
         "value": "-1"
       },
       {
@@ -585,6 +585,88 @@
         "value": "1 << 12"
       }
     ],
+    "ImPlot3DProp_": [
+      {
+        "calc_value": 0,
+        "name": "ImPlot3DProp_LineColor",
+        "value": "0"
+      },
+      {
+        "calc_value": 1,
+        "name": "ImPlot3DProp_LineColors",
+        "value": "1"
+      },
+      {
+        "calc_value": 2,
+        "name": "ImPlot3DProp_LineWeight",
+        "value": "2"
+      },
+      {
+        "calc_value": 3,
+        "name": "ImPlot3DProp_FillColor",
+        "value": "3"
+      },
+      {
+        "calc_value": 4,
+        "name": "ImPlot3DProp_FillColors",
+        "value": "4"
+      },
+      {
+        "calc_value": 5,
+        "name": "ImPlot3DProp_FillAlpha",
+        "value": "5"
+      },
+      {
+        "calc_value": 6,
+        "name": "ImPlot3DProp_Marker",
+        "value": "6"
+      },
+      {
+        "calc_value": 7,
+        "name": "ImPlot3DProp_MarkerSize",
+        "value": "7"
+      },
+      {
+        "calc_value": 8,
+        "name": "ImPlot3DProp_MarkerSizes",
+        "value": "8"
+      },
+      {
+        "calc_value": 9,
+        "name": "ImPlot3DProp_MarkerLineColor",
+        "value": "9"
+      },
+      {
+        "calc_value": 10,
+        "name": "ImPlot3DProp_MarkerLineColors",
+        "value": "10"
+      },
+      {
+        "calc_value": 11,
+        "name": "ImPlot3DProp_MarkerFillColor",
+        "value": "11"
+      },
+      {
+        "calc_value": 12,
+        "name": "ImPlot3DProp_MarkerFillColors",
+        "value": "12"
+      },
+      {
+        "calc_value": 13,
+        "name": "ImPlot3DProp_Offset",
+        "value": "13"
+      },
+      {
+        "calc_value": 14,
+        "name": "ImPlot3DProp_Stride",
+        "value": "14"
+      },
+      {
+        "calc_value": 15,
+        "name": "ImPlot3DProp_Flags",
+        "value": "15"
+      }
+    ],
     "ImPlot3DQuadFlags_": [
       {
         "calc_value": 0,
@@ -669,58 +751,53 @@
       },
       {
         "calc_value": 3,
-        "name": "ImPlot3DStyleVar_MarkerWeight",
+        "name": "ImPlot3DStyleVar_FillAlpha",
         "value": "3"
       },
       {
         "calc_value": 4,
-        "name": "ImPlot3DStyleVar_FillAlpha",
+        "name": "ImPlot3DStyleVar_PlotDefaultSize",
         "value": "4"
       },
       {
         "calc_value": 5,
-        "name": "ImPlot3DStyleVar_PlotDefaultSize",
+        "name": "ImPlot3DStyleVar_PlotMinSize",
         "value": "5"
       },
       {
         "calc_value": 6,
-        "name": "ImPlot3DStyleVar_PlotMinSize",
+        "name": "ImPlot3DStyleVar_PlotPadding",
         "value": "6"
       },
       {
         "calc_value": 7,
-        "name": "ImPlot3DStyleVar_PlotPadding",
+        "name": "ImPlot3DStyleVar_LabelPadding",
         "value": "7"
       },
       {
         "calc_value": 8,
-        "name": "ImPlot3DStyleVar_LabelPadding",
+        "name": "ImPlot3DStyleVar_ViewScaleFactor",
         "value": "8"
       },
       {
         "calc_value": 9,
-        "name": "ImPlot3DStyleVar_ViewScaleFactor",
+        "name": "ImPlot3DStyleVar_LegendPadding",
         "value": "9"
       },
       {
         "calc_value": 10,
-        "name": "ImPlot3DStyleVar_LegendPadding",
+        "name": "ImPlot3DStyleVar_LegendInnerPadding",
         "value": "10"
       },
       {
         "calc_value": 11,
-        "name": "ImPlot3DStyleVar_LegendInnerPadding",
+        "name": "ImPlot3DStyleVar_LegendSpacing",
         "value": "11"
       },
       {
         "calc_value": 12,
-        "name": "ImPlot3DStyleVar_LegendSpacing",
-        "value": "12"
-      },
-      {
-        "calc_value": 13,
         "name": "ImPlot3DStyleVar_COUNT",
-        "value": "13"
+        "value": "12"
       }
     ],
     "ImPlot3DSurfaceFlags_": [
@@ -790,34 +867,36 @@
   },
   "enumtypes": [],
   "locations": {
-    "ImAxis3D_": "implot3d:298",
-    "ImPlane3D_": "implot3d:306",
-    "ImPlot3DAxisFlags_": "implot3d:282",
-    "ImPlot3DBox": "implot3d:798",
-    "ImPlot3DCol_": "implot3d:125",
-    "ImPlot3DColormap_": "implot3d:321",
-    "ImPlot3DCond_": "implot3d:119",
-    "ImPlot3DDummyFlags_": "implot3d:256",
-    "ImPlot3DFlags_": "implot3d:103",
-    "ImPlot3DImageFlags_": "implot3d:249",
-    "ImPlot3DItemFlags_": "implot3d:185",
-    "ImPlot3DLegendFlags_": "implot3d:261",
-    "ImPlot3DLineFlags_": "implot3d:199",
-    "ImPlot3DLocation_": "implot3d:269",
-    "ImPlot3DMarker_": "implot3d:169",
-    "ImPlot3DMeshFlags_": "implot3d:239",
-    "ImPlot3DPlane": "implot3d:788",
-    "ImPlot3DPoint": "implot3d:705",
-    "ImPlot3DQuadFlags_": "implot3d:219",
-    "ImPlot3DQuat": "implot3d:840",
-    "ImPlot3DRange": "implot3d:823",
-    "ImPlot3DRay": "implot3d:778",
-    "ImPlot3DScale_": "implot3d:314",
-    "ImPlot3DScatterFlags_": "implot3d:192",
-    "ImPlot3DStyle": "implot3d:897",
-    "ImPlot3DStyleVar_": "implot3d:149",
-    "ImPlot3DSurfaceFlags_": "implot3d:229",
-    "ImPlot3DTriangleFlags_": "implot3d:209"
+    "ImAxis3D_": "implot3d:318",
+    "ImPlane3D_": "implot3d:326",
+    "ImPlot3DAxisFlags_": "implot3d:302",
+    "ImPlot3DBox": "implot3d:930",
+    "ImPlot3DCol_": "implot3d:147",
+    "ImPlot3DColormap_": "implot3d:341",
+    "ImPlot3DCond_": "implot3d:141",
+    "ImPlot3DDummyFlags_": "implot3d:276",
+    "ImPlot3DFlags_": "implot3d:125",
+    "ImPlot3DImageFlags_": "implot3d:269",
+    "ImPlot3DItemFlags_": "implot3d:205",
+    "ImPlot3DLegendFlags_": "implot3d:281",
+    "ImPlot3DLineFlags_": "implot3d:219",
+    "ImPlot3DLocation_": "implot3d:289",
+    "ImPlot3DMarker_": "implot3d:188",
+    "ImPlot3DMeshFlags_": "implot3d:259",
+    "ImPlot3DPlane": "implot3d:920",
+    "ImPlot3DPoint": "implot3d:837",
+    "ImPlot3DProp_": "implot3d:105",
+    "ImPlot3DQuadFlags_": "implot3d:239",
+    "ImPlot3DQuat": "implot3d:972",
+    "ImPlot3DRange": "implot3d:955",
+    "ImPlot3DRay": "implot3d:910",
+    "ImPlot3DScale_": "implot3d:334",
+    "ImPlot3DScatterFlags_": "implot3d:212",
+    "ImPlot3DSpec": "implot3d:384",
+    "ImPlot3DStyle": "implot3d:1029",
+    "ImPlot3DStyleVar_": "implot3d:169",
+    "ImPlot3DSurfaceFlags_": "implot3d:249",
+    "ImPlot3DTriangleFlags_": "implot3d:229"
   },
   "nonPOD": {
     "ImBitArray": "inherited",
@@ -867,6 +946,7 @@
     "ImGuiOldColumnData": "inherited",
     "ImGuiOldColumns": "inherited",
     "ImGuiOnceUponAFrame": "inherited",
+    "ImGuiPackedDate": "inherited",
     "ImGuiPayload": "inherited",
     "ImGuiPlatformIO": "inherited",
     "ImGuiPlatformImeData": "inherited",
@@ -903,6 +983,7 @@
     "ImPlot3DPoint": true,
     "ImPlot3DQuat": true,
     "ImPlot3DRange": true,
+    "ImPlot3DSpec": true,
     "ImPlot3DStyle": true,
     "ImPool": "inherited",
     "ImRect": "inherited",
@@ -921,11 +1002,13 @@
   "nonPOD_used": {
     "ImPlot3DPoint": true,
     "ImPlot3DQuat": true,
+    "ImPlot3DSpec": true,
     "ImPlot3DStyle": true,
     "ImTextureRef": "inherited",
     "ImVec2": "inherited",
     "ImVec4": "inherited"
   },
+  "opaque_structs": [],
   "structs": {
     "ImPlot3DBox": [
       {
@@ -999,6 +1082,72 @@
         "type": "ImPlot3DPoint"
       }
     ],
+    "ImPlot3DSpec": [
+      {
+        "name": "LineColor",
+        "type": "ImVec4"
+      },
+      {
+        "name": "LineColors",
+        "type": "ImU32*"
+      },
+      {
+        "name": "LineWeight",
+        "type": "float"
+      },
+      {
+        "name": "FillColor",
+        "type": "ImVec4"
+      },
+      {
+        "name": "FillColors",
+        "type": "ImU32*"
+      },
+      {
+        "name": "FillAlpha",
+        "type": "float"
+      },
+      {
+        "name": "Marker",
+        "type": "ImPlot3DMarker"
+      },
+      {
+        "name": "MarkerSize",
+        "type": "float"
+      },
+      {
+        "name": "MarkerSizes",
+        "type": "float*"
+      },
+      {
+        "name": "MarkerLineColor",
+        "type": "ImVec4"
+      },
+      {
+        "name": "MarkerLineColors",
+        "type": "ImU32*"
+      },
+      {
+        "name": "MarkerFillColor",
+        "type": "ImVec4"
+      },
+      {
+        "name": "MarkerFillColors",
+        "type": "ImU32*"
+      },
+      {
+        "name": "Offset",
+        "type": "int"
+      },
+      {
+        "name": "Stride",
+        "type": "int"
+      },
+      {
+        "name": "Flags",
+        "type": "ImPlot3DItemFlags"
+      }
+    ],
     "ImPlot3DStyle": [
       {
         "name": "LineWeight",
@@ -1010,10 +1159,6 @@
       },
       {
         "name": "MarkerSize",
-        "type": "float"
-      },
-      {
-        "name": "MarkerWeight",
         "type": "float"
       },
       {
@@ -1054,7 +1199,7 @@
       },
       {
         "name": "Colors[ImPlot3DCol_COUNT]",
-        "size": 15,
+        "size": 14,
         "type": "ImVec4"
       },
       {
